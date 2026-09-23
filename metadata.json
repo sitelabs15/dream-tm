@@ -1,0 +1,6 @@
+{
+  "name": "DREAM TM | Automatización Industrial y Robótica",
+  "description": "Dream TM integra robots y sistemas de automatización industrial para manufactura, industria automotriz y líneas de producción en Puebla y México.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

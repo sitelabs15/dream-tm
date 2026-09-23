@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dream-navy: #0B1638;
+  --color-dream-navy-2: #111F4D;
+  --color-dream-blue: #243B82;
+  --color-dream-blue-bright: #3154B5;
+  --color-dream-red: #E42332;
+  --color-dream-red-hover: #C91826;
+  --color-dream-dark: #08122D;
+  --color-dream-card-dark: #101C3B;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+:root {
+  --dream-navy: #0B1638;
+  --dream-navy-2: #111F4D;
+  --dream-blue: #243B82;
+  --dream-blue-bright: #3154B5;
+  --dream-red: #E42332;
+  --dream-red-hover: #C91826;
+  --background-main: #F5F7FA;
+  --background-white: #FFFFFF;
+  --background-dark: #08122D;
+  --background-card-dark: #101C3B;
+  --text-main: #142039;
+  --text-muted: #667085;
+  --text-light: #F7F9FC;
+  --text-light-muted: #AEB8CF;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #142039;
+  background-color: #08122D;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-display {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+}
+
+/* Subtle CAD Engineering Grid */
+.bg-cad-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+.bg-cad-grid-light {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(11, 22, 56, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(11, 22, 56, 0.04) 1px, transparent 1px);
+}
+
+/* Crosshair decor */
+.crosshair-corner {
+  position: relative;
+}
+.crosshair-corner::before, .crosshair-corner::after {
+  content: '';
+  position: absolute;
+  background: rgba(228, 35, 50, 0.4);
+}
+

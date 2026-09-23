@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="100%" height="100%">
+  <defs>
+    <style>
+      .logo-red { fill: #E42332; }
+      .logo-navy { fill: #1C2D62; }
+      .logo-white { fill: #FFFFFF; }
+      .logo-tm { font-family: 'Times New Roman', 'Georgia', serif; font-weight: bold; font-size: 38px; }
+      .logo-sans { font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif; font-weight: 900; }
+    </style>
+  </defs>
+
+  <!-- ==================== LETTER D WITH ROBOTIC EMBLEM ==================== -->
+  <g id="letter-D">
+    <!-- Outer D shape white contour -->
+    <path d="M 16 22 L 64 22 C 84 22 98 38 98 60 C 98 82 84 98 64 98 L 16 98 Z" fill="#FFFFFF" fill-opacity="0.12" />
+    <path d="M 16 22 L 64 22 C 84 22 98 38 98 60 C 98 82 84 98 64 98 L 16 98 Z" fill="none" stroke="#FFFFFF" stroke-width="2.5" />
+    
+    <!-- White vertical left spine -->
+    <rect x="16" y="22" width="12" height="76" rx="2" fill="#FFFFFF" />
+
+    <!-- Top Red Bar -->
+    <rect x="28" y="22" width="46" height="9" rx="1.5" fill="#E42332" />
+    <!-- Top Red Dot -->
+    <circle cx="82" cy="26.5" r="4.5" fill="#E42332" />
+
+    <!-- Dark Navy Robotic Body / Shield inside D -->
+    <path d="M 28 39 C 22 39 18 47 18 60 C 18 73 23 80 28 82 L 48 82 C 55 82 57 75 57 66 L 53 48 C 51 41 43 39 37 39 Z" fill="#1C2D62" />
+
+    <!-- Red Articulated Robot Arm Link -->
+    <path d="M 44 38 L 57 54" stroke="#E42332" stroke-width="7" stroke-linecap="round" />
+
+    <!-- Red Joint (Pivot Axis) -->
+    <circle cx="64" cy="62" r="7.5" fill="#E42332" />
+
+    <!-- Small lower red wedge -->
+    <polygon points="28,84 44,91 28,91" fill="#E42332" />
+
+    <!-- Bottom Red Bar -->
+    <rect x="28" y="89" width="34" height="9" rx="1.5" fill="#E42332" />
+  </g>
+
+  <!-- ==================== LETTERS R - E - A - M ==================== -->
+  <!-- R -->
+  <path d="M 112 22 L 148 22 C 162 22 170 30 170 44 C 170 56 162 63 150 65 L 172 98 L 153 98 L 134 68 L 128 68 L 128 98 L 112 98 Z M 128 36 L 128 54 L 146 54 C 153 54 156 50 156 45 C 156 40 153 36 146 36 Z" fill="#FFFFFF" />
+
+  <!-- E -->
+  <path d="M 186 22 L 236 22 L 236 36 L 202 36 L 202 52 L 232 52 L 232 65 L 202 65 L 202 84 L 236 84 L 236 98 L 186 98 Z" fill="#FFFFFF" />
+
+  <!-- A (Futuristic Chevron) -->
+  <path d="M 276 22 L 292 22 L 322 98 L 305 98 L 298 78 L 270 78 L 263 98 L 246 98 Z M 274 65 L 294 65 L 284 37 Z" fill="#FFFFFF" />
+
+  <!-- M -->
+  <path d="M 336 22 L 354 22 L 372 66 L 390 22 L 408 22 L 408 98 L 393 98 L 393 46 L 378 84 L 366 84 L 351 46 L 351 98 L 336 98 Z" fill="#FFFFFF" />
+
+  <!-- ==================== TM (Serif) ==================== -->
+  <text x="430" y="88" fill="#FFFFFF" class="logo-tm">TM</text>
+</svg>
